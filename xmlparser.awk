@@ -252,7 +252,7 @@ BEGIN {
 # The tag name is saved in "tag" so that we can retreive it later should
 # we find that the tag is stand-alone and need to save a close tag item.
 
-	sub( /[ \n\t/].*$/, "", tag );
+	sub( /[ \n\t\/].*$/, "", tag );
 	tag = toupper( tolower( tag ));
 	item[idx] = tag;
 
@@ -287,7 +287,7 @@ BEGIN {
 		sptr -= 1;
 	};
 
-	sub( /[^ \n\t/]*[ \n\t]*/, "", $0 );
+	sub( /[^ \n\t\/]*[ \n\t]*/, "", $0 );
 
 # Beyond this point, we're dealing with the tag attributes, if any,
 # and/or the stand-alone end-of-tag marker.
@@ -355,8 +355,8 @@ BEGIN {
 			}
 			else {
 				item[idx] = $0;
-				sub( /[ \n\t/]*.$/, "", item[idx] );
-				sub( /^=[^ \n\t/]*/, "", $0 );
+				sub( /[ \n\t\/]*.$/, "", item[idx] );
+				sub( /^=[^ \n\t\/]*/, "", $0 );
 			};
 		}
 		else item[idx] = attrib;
