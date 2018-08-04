@@ -1,0 +1,72 @@
+Content-Type: text/plain;
+	charset=us-ascii
+Mime-Version: 1.0 (Mac OS X Mail 6.3 \(1503\))
+Subject: Re: GPL/BSD Licencing Question for awk.info
+X-Universally-Unique-Identifier: 47583465-fe19-434d-a257-47f225069cd2
+From: "Isaac (.ike) Levy" <ike@blackskyresearch.net>
+In-Reply-To: <CAMydrcmLVoWAVV+HwenLjxxKhe7SL+1q6BKnAaM-z_WU1RhrCQ@mail.gmail.com>
+Date: Sun, 14 Jul 2013 00:16:15 -0400
+Content-Transfer-Encoding: quoted-printable
+X-Smtp-Server: secure-email-25.luxsci.com:ike@blackskyresearch.net
+Message-Id: <9D291067-952C-4DD9-8085-DAD37C54ED61@blackskyresearch.net>
+References: <1373734262-283616.199119418.fr6DGow5g008280@rs149.luxsci.com> <CAMydrcmLVoWAVV+HwenLjxxKhe7SL+1q6BKnAaM-z_WU1RhrCQ@mail.gmail.com>
+To: tim@menzies.us
+
+Hi Tim,
+
+Thanks, I'll reach out and contact Steve Coile directly.
+
+And thanks for helping run awk.info!
+
+Rocket-
+.ike
+
+
+
+On Jul 13, 2013, at 4:35 PM, Tim Menzies <tim@menzies.us> wrote:
+
+> Fyi: no one is enforcing these licenses.  Id just contact the original =
+author
+> T
+>=20
+> On Jul 13, 2013 12:51 PM, "Isaac Levy" <ike@blackskyresearch.net> =
+wrote:
+> Hi Tim,
+>=20
+> I hope this finds you well, I really have recently learned a lot after =
+discovering awk.info!
+>=20
+> --
+> I'm sorry to bother you with a licensing question, but here goes:
+>=20
+> I am blown away by a parser I found on the site,
+> http://awk.info/?doc/tools/xmlparse.html
+>=20
+> I'm writing some utilities which collectively fall under a BSD =
+license, and would very much like to use the base of that parser.  I see =
+(and respect) that the site/repo content appears to be covered under a =
+GPLv3 license, (totally incompatible with my work, under the BSD =
+license).
+>=20
+> Is there any way that the xmlparse.awk code be formally released under =
+a BSD, or even LGPL license?  Or, that you grant me permission to =
+re-release the code under a BSD license?
+> My only alternative would be to re-write similar parser code from =
+scratch, (daunting), and I'd really rather instead give proper =
+attribution to awk.info, and the original author, Steve Coile.
+>=20
+> I believe in the spirit of the original work of Aho, Weinberger, and =
+Kernighan at AT&T, that this hopefully not taken an unreasonable or =
+insulting request.  My intention with the BSD license is to require =
+attribution, and keep the source open and freely available in with no =
+restrictions for use.
+>=20
+> Thanks for your consideration.  And more importantly, thanks for =
+running awk.info, I've learned a lot from it, and I really appreciate =
+your tastes and approaches in shell, POSIX, and UNIX!
+>=20
+> Rocket-
+> .ike
+>=20
+>=20
+

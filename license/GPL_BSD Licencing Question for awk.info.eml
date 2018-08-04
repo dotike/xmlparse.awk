@@ -1,0 +1,49 @@
+From: Isaac (.ike) Levy <ike@blackskyresearch.net>
+Content-Type: text/plain;
+	charset=us-ascii
+Content-Transfer-Encoding: quoted-printable
+X-Smtp-Server: secure-email-25.luxsci.com:ike@blackskyresearch.net
+Subject: GPL/BSD Licencing Question for awk.info
+Message-Id: <202ECFB2-B694-4A10-B48C-AF02549EAD4A@blackskyresearch.net>
+X-Universally-Unique-Identifier: 081c1543-3a9b-4fea-a626-5cbfe03f6eb7
+Date: Sat, 13 Jul 2013 12:51:03 -0400
+To: tim@menzies.us
+Mime-Version: 1.0 (Mac OS X Mail 6.3 \(1503\))
+
+Hi Tim,
+
+I hope this finds you well, I really have recently learned a lot after =
+discovering awk.info!
+
+--
+I'm sorry to bother you with a licensing question, but here goes:
+
+I am blown away by a parser I found on the site,
+http://awk.info/?doc/tools/xmlparse.html
+
+I'm writing some utilities which collectively fall under a BSD license, =
+and would very much like to use the base of that parser.  I see (and =
+respect) that the site/repo content appears to be covered under a GPLv3 =
+license, (totally incompatible with my work, under the BSD license).
+
+Is there any way that the xmlparse.awk code be formally released under a =
+BSD, or even LGPL license?  Or, that you grant me permission to =
+re-release the code under a BSD license?
+My only alternative would be to re-write similar parser code from =
+scratch, (daunting), and I'd really rather instead give proper =
+attribution to awk.info, and the original author, Steve Coile.
+
+I believe in the spirit of the original work of Aho, Weinberger, and =
+Kernighan at AT&T, that this hopefully not taken an unreasonable or =
+insulting request.  My intention with the BSD license is to require =
+attribution, and keep the source open and freely available in with no =
+restrictions for use.
+
+Thanks for your consideration.  And more importantly, thanks for running =
+awk.info, I've learned a lot from it, and I really appreciate your =
+tastes and approaches in shell, POSIX, and UNIX!
+
+Rocket-
+.ike
+
+

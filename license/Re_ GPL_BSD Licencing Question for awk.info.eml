@@ -1,0 +1,164 @@
+Received: via dmail-2010.19 for +INBOX; Sat, 13 Jul 2013 16:35:15 -0400 (EDT)
+Received: from rs119.luxsci.com ([172.16.28.158])
+	by rs149.luxsci.com (8.14.4/8.13.8) with ESMTP id r6DKZFek020851
+	(version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NOT)
+	for <user-74627@rs149.luxsci.com>; Sat, 13 Jul 2013 16:35:15 -0400
+Received: from rs119.luxsci.com (localhost.localdomain [127.0.0.1])
+	by rs119.luxsci.com (8.14.4/8.13.8) with ESMTP id r6DKZFZP006152
+	for <user-74627@rs149.luxsci.com>; Sat, 13 Jul 2013 16:35:15 -0400
+Received: (from mail@localhost)
+	by rs119.luxsci.com (8.14.4/8.13.8/Submit) id r6DKZFdx006151
+	for user-74627@rs149.luxsci.com; Sat, 13 Jul 2013 16:35:15 -0400
+X-Spam-Checker-Version: SpamAssassin 3.3.2 (2011-06-06) on rs119.luxsci.com
+X-Spam-Level: 
+X-Spam-Status: No, score=-0.6 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VERIFIED,HTML_MESSAGE,URIBL_BLOCKED autolearn=unavailable version=3.3.2
+Return-Path: <menzies.tim@gmail.com>
+Received: from mail-pb0-f48.google.com (mail-pb0-f48.google.com [209.85.160.48])
+	by rs119.luxsci.com (8.14.4/8.13.8) with ESMTP id r6DKZCj7006119
+	(version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=NOT)
+	for <ike@blackskyresearch.net>; Sat, 13 Jul 2013 16:35:13 -0400
+Received: by mail-pb0-f48.google.com with SMTP id ma3so10023868pbc.21
+        for <ike@blackskyresearch.net>; Sat, 13 Jul 2013 13:35:12 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:reply-to:sender:in-reply-to:references:date
+         :x-google-sender-auth:message-id:subject:from:to:content-type;
+        bh=W9dtFqoG7P66u6jydiPPXDCJKJ6SLCbnwbBJA5vxz3E=;
+        b=fAUIWGtNZ9eoCYqPwPSCLKd708JmRcD+PoJ8h6xTKZLzf6f9KtC18g80g9DbZJVvfs
+         h/QqaBkso5IFKo4Il/KG86Y3d3XJNdScmkVkgDn23/D5EL2U8XmruzsZwxOr1A1ExjsX
+         ALM6Z+SbzJrgwJNWGkMGx3+Nm9sy2f8HoJEcy9R5LBWB9A1pPZv0teI+K2Bjp3Rrg6qJ
+         3KmkotWbmccJdBbyUR2z/TjPimhddUl1ADSYrDwXRz+jJc2YtqkI5TSypBlnCbQd8alb
+         nlwZoKC0dmGfHkX8LhQIRzunI0xm77bCaZwcb/hG9WKERdGNdlPtJVVJBICXhVMJ75sW
+         FPAg==
+MIME-Version: 1.0
+X-Received: by 10.66.187.81 with SMTP id fq17mr49357088pac.106.1373747712330;
+ Sat, 13 Jul 2013 13:35:12 -0700 (PDT)
+Reply-To: tim@menzies.us
+Sender: menzies.tim@gmail.com
+Received: by 10.70.14.5 with HTTP; Sat, 13 Jul 2013 13:35:12 -0700 (PDT)
+Received: by 10.70.14.5 with HTTP; Sat, 13 Jul 2013 13:35:12 -0700 (PDT)
+In-Reply-To: <1373734262-283616.199119418.fr6DGow5g008280@rs149.luxsci.com>
+References: <1373734262-283616.199119418.fr6DGow5g008280@rs149.luxsci.com>
+Date: Sat, 13 Jul 2013 16:35:12 -0400
+X-Google-Sender-Auth: H5_7jRFjeU7BsS01clWZ3nYF6Uc
+Message-ID: <CAMydrcmLVoWAVV+HwenLjxxKhe7SL+1q6BKnAaM-z_WU1RhrCQ@mail.gmail.com>
+Subject: Re: GPL/BSD Licencing Question for awk.info
+From: Tim Menzies <tim@menzies.us>
+To: Isaac Levy <ike@blackskyresearch.net>
+Content-Type: multipart/alternative; boundary=047d7bf161f267920f04e16a90d6
+X-Lux-Inbound-TLS: 1
+X-Lux-Processed-For: <ike@blackskyresearch.net>
+X-Lux-Ruleset: #74627 on rs119.luxsci.com
+X-Lux-Envelope-Recipient: <ike@blackskyresearch.net>
+X-Virus-Status: No
+X-Virus-Checker-Version: clamassassin 1.2.4 with clamdscan / ClamAV 0.97.8/17502/Sat Jul 13 12:41:04 2013
+X-Lux-Rule: Deliver
+X-Lux-Delivered-To: "INBOX"
+
+--047d7bf161f267920f04e16a90d6
+Content-Type: text/plain; charset=UTF-8
+
+Fyi: no one is enforcing these licenses.  Id just contact the original
+author
+T
+On Jul 13, 2013 12:51 PM, "Isaac Levy" <ike@blackskyresearch.net> wrote:
+
+> Hi Tim,
+>
+> I hope this finds you well, I really have recently learned a lot after
+> discovering awk.info!
+>
+> --
+> I'm sorry to bother you with a licensing question, but here goes:
+>
+> I am blown away by a parser I found on the site,
+> http://awk.info/?doc/tools/xmlparse.html
+>
+> I'm writing some utilities which collectively fall under a BSD license,
+> and would very much like to use the base of that parser.  I see (and
+> respect) that the site/repo content appears to be covered under a GPLv3
+> license, (totally incompatible with my work, under the BSD license).
+>
+> Is there any way that the xmlparse.awk code be formally released under a
+> BSD, or even LGPL license?  Or, that you grant me permission to re-release
+> the code under a BSD license?
+> My only alternative would be to re-write similar parser code from scratch,
+> (daunting), and I'd really rather instead give proper attribution to
+> awk.info, and the original author, Steve Coile.
+>
+> I believe in the spirit of the original work of Aho, Weinberger, and
+> Kernighan at AT&T, that this hopefully not taken an unreasonable or
+> insulting request.  My intention with the BSD license is to require
+> attribution, and keep the source open and freely available in with no
+> restrictions for use.
+>
+> Thanks for your consideration.  And more importantly, thanks for running
+> awk.info, I've learned a lot from it, and I really appreciate your tastes
+> and approaches in shell, POSIX, and UNIX!
+>
+> Rocket-
+> .ike
+>
+>
+>
+
+--047d7bf161f267920f04e16a90d6
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<p dir=3D"ltr">Fyi: no one is enforcing these licenses.=C2=A0 Id just conta=
+ct the original author<br>
+T</p>
+<div class=3D"gmail_quote">On Jul 13, 2013 12:51 PM, &quot;Isaac  Levy&quot=
+; &lt;<a href=3D"mailto:ike@blackskyresearch.net">ike@blackskyresearch.net<=
+/a>&gt; wrote:<br type=3D"attribution"><blockquote class=3D"gmail_quote" st=
+yle=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex">
+Hi Tim,<br>
+<br>
+I hope this finds you well, I really have recently learned a lot after disc=
+overing <a href=3D"http://awk.info" target=3D"_blank">awk.info</a>!<br>
+<br>
+--<br>
+I&#39;m sorry to bother you with a licensing question, but here goes:<br>
+<br>
+I am blown away by a parser I found on the site,<br>
+<a href=3D"http://awk.info/?doc/tools/xmlparse.html" target=3D"_blank">http=
+://awk.info/?doc/tools/xmlparse.html</a><br>
+<br>
+I&#39;m writing some utilities which collectively fall under a BSD license,=
+ and would very much like to use the base of that parser. =C2=A0I see (and =
+respect) that the site/repo content appears to be covered under a GPLv3 lic=
+ense, (totally incompatible with my work, under the BSD license).<br>
+
+<br>
+Is there any way that the xmlparse.awk code be formally released under a BS=
+D, or even LGPL license? =C2=A0Or, that you grant me permission to re-relea=
+se the code under a BSD license?<br>
+My only alternative would be to re-write similar parser code from scratch, =
+(daunting), and I&#39;d really rather instead give proper attribution to <a=
+ href=3D"http://awk.info" target=3D"_blank">awk.info</a>, and the original =
+author, Steve Coile.<br>
+
+<br>
+I believe in the spirit of the original work of Aho, Weinberger, and Kernig=
+han at AT&amp;T, that this hopefully not taken an unreasonable or insulting=
+ request. =C2=A0My intention with the BSD license is to require attribution=
+, and keep the source open and freely available in with no restrictions for=
+ use.<br>
+
+<br>
+Thanks for your consideration. =C2=A0And more importantly, thanks for runni=
+ng <a href=3D"http://awk.info" target=3D"_blank">awk.info</a>, I&#39;ve lea=
+rned a lot from it, and I really appreciate your tastes and approaches in s=
+hell, POSIX, and UNIX!<br>
+
+<br>
+Rocket-<br>
+.ike<br>
+<br>
+<br>
+</blockquote></div>
+
+--047d7bf161f267920f04e16a90d6--
+

@@ -1,0 +1,246 @@
+From: "Isaac (.ike) Levy" <ike@blackskyresearch.net>
+Content-Type: multipart/alternative;
+	boundary="Apple-Mail=_25647337-0B5B-478D-8E89-A69667E1FDC5"
+X-Smtp-Server: secure-email-25.luxsci.com:ike@blackskyresearch.net
+Subject: Fwd: GPL/BSD Licencing Question for xmlparse.awk
+X-Universally-Unique-Identifier: 5ccb9e63-599a-4aa5-9f17-478c823f29cb
+Date: Sun, 14 Jul 2013 01:36:34 -0400
+References: <CAMydrcmLVoWAVV+HwenLjxxKhe7SL+1q6BKnAaM-z_WU1RhrCQ@mail.gmail.com>
+To: Steve Coile <scoile@csc.com>
+Message-Id: <FCE9D4D6-1942-4C18-A674-D072F48B6C94@blackskyresearch.net>
+Mime-Version: 1.0 (Mac OS X Mail 6.3 \(1503\))
+
+
+--Apple-Mail=_25647337-0B5B-478D-8E89-A69667E1FDC5
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain;
+	charset=windows-1252
+
+
+Hi Steve,
+
+I hope this finds you well, I really found your 10 year old =
+xmlparse.awk, on awk.info.  Learned a *ton* reading it end to end.
+
+--
+I'm sorry to bother you with a licensing question, but here goes:
+
+I am blown away by a parser I found on the site,
+http://awk.info/?doc/tools/xmlparse.html
+
+I'm writing some utilities which collectively fall under a BSD license, =
+and would very much like to use the base of that parser.
+
+I see (and respect) that the awk.info site/repo content appears to be =
+covered under a GPLv3 license, (totally incompatible with my work, under =
+the BSD license).  I also found that your 2001 work, does not appear to =
+be releaseed under any license,
+ftp://ftp.freefriends.org/arnold/Awkstuff/xmlparser.awk
+
+Is there any way that I can include the xmlparse.awk code be formally =
+used in my code under a BSD license?  Or, that you grant me permission =
+to re-release the code under a BSD license?
+My only alternative would be to re-write similar parser code from =
+scratch, (daunting), and I'd really rather instead give proper =
+attribution to your work, (and nod to the places I've found it).
+
+I believe in the spirit of the original work of Aho, Weinberger, and =
+Kernighan at AT&T, that this hopefully not taken an unreasonable or =
+insulting request.  My intention with the BSD license is to require =
+attribution, and keep the source open and freely available in with no =
+restrictions for use.
+
+Thanks for your consideration.  And more importantly, thanks for writing =
+that sucker=85
+
+Rocket-
+.ike
+
+
+
+
+(what follows is an email I sent to the person who apparently runs the =
+awk.info website, where I originally found your xmlparse.awk in their =
+repo)
+
+Begin forwarded message:
+
+> From: Tim Menzies <tim@menzies.us>
+> Subject: Re: GPL/BSD Licencing Question for awk.info
+> Date: July 13, 2013 4:35:12 PM EDT
+> To: Isaac Levy <ike@blackskyresearch.net>
+> Reply-To: tim@menzies.us
+>=20
+> Fyi: no one is enforcing these licenses.  Id just contact the original =
+author
+> T
+>=20
+> On Jul 13, 2013 12:51 PM, "Isaac Levy" <ike@blackskyresearch.net> =
+wrote:
+> Hi Tim,
+>=20
+> I hope this finds you well, I really have recently learned a lot after =
+discovering awk.info!
+>=20
+> --
+> I'm sorry to bother you with a licensing question, but here goes:
+>=20
+> I am blown away by a parser I found on the site,
+> http://awk.info/?doc/tools/xmlparse.html
+>=20
+> I'm writing some utilities which collectively fall under a BSD =
+license, and would very much like to use the base of that parser.  I see =
+(and respect) that the site/repo content appears to be covered under a =
+GPLv3 license, (totally incompatible with my work, under the BSD =
+license).
+>=20
+> Is there any way that the xmlparse.awk code be formally released under =
+a BSD, or even LGPL license?  Or, that you grant me permission to =
+re-release the code under a BSD license?
+> My only alternative would be to re-write similar parser code from =
+scratch, (daunting), and I'd really rather instead give proper =
+attribution to awk.info, and the original author, Steve Coile.
+>=20
+> I believe in the spirit of the original work of Aho, Weinberger, and =
+Kernighan at AT&T, that this hopefully not taken an unreasonable or =
+insulting request.  My intention with the BSD license is to require =
+attribution, and keep the source open and freely available in with no =
+restrictions for use.
+>=20
+> Thanks for your consideration.  And more importantly, thanks for =
+running awk.info, I've learned a lot from it, and I really appreciate =
+your tastes and approaches in shell, POSIX, and UNIX!
+>=20
+> Rocket-
+> .ike
+>=20
+>=20
+
+
+--Apple-Mail=_25647337-0B5B-478D-8E89-A69667E1FDC5
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;
+	charset=windows-1252
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html =
+charset=3Dwindows-1252"></head><body style=3D"word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space; =
+"><br><div>Hi Steve,</div><div><br></div><div>I hope this finds you =
+well, I really found your 10 year old xmlparse.awk, on awk.info. =
+&nbsp;Learned a *ton* reading it end to end.<br><br>--<br>I'm sorry to =
+bother you with a licensing question, but here goes:<br><br>I am blown =
+away by a parser I found on the site,<br><a =
+href=3D"http://awk.info/?doc/tools/xmlparse.html">http://awk.info/?doc/too=
+ls/xmlparse.html</a><br><br>I'm writing some utilities which =
+collectively fall under a BSD license, and would very much like to use =
+the base of that parser.</div><div><br></div><div>I see (and respect) =
+that the awk.info site/repo content appears to be covered under a GPLv3 =
+license, (totally incompatible with my work, under the BSD license). =
+&nbsp;I also found that your&nbsp;2001 work, does not appear to be =
+releaseed under any license,</div><div><a =
+href=3D"ftp://ftp.freefriends.org/arnold/Awkstuff/xmlparser.awk">ftp://ftp=
+.freefriends.org/arnold/Awkstuff/xmlparser.awk</a><br><br>Is there any =
+way that I can include the xmlparse.awk code be formally used in my code =
+under a BSD license? &nbsp;Or, that you grant me permission to =
+re-release the code under a BSD license?<br>My only alternative would be =
+to re-write similar parser code from scratch, (daunting), and I'd really =
+rather instead give proper attribution to your work, (and nod to the =
+places I've found it).<br><br>I believe in the spirit of the original =
+work of Aho, Weinberger, and Kernighan at AT&amp;T, that this hopefully =
+not taken an unreasonable or insulting request. &nbsp;My intention with =
+the BSD license is to require attribution, and keep the source open and =
+freely available in with no restrictions for use.<br><br>Thanks for your =
+consideration. &nbsp;And more importantly, thanks for writing that =
+sucker=85</div><div><br>Rocket-<br>.ike<br><br></div><div><br></div><div><=
+br></div><div><br></div><div>(what follows is an email I sent to the =
+person who apparently runs the awk.info website, where I originally =
+found your&nbsp;xmlparse.awk&nbsp;in their =
+repo)</div><div><br><div>Begin forwarded message:</div><br =
+class=3D"Apple-interchange-newline"><blockquote type=3D"cite"><div =
+style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; =
+margin-left: 0px;"><span style=3D"font-family:'Helvetica'; =
+font-size:medium; color:rgba(0, 0, 0, 1.0);"><b>From: </b></span><span =
+style=3D"font-family:'Helvetica'; font-size:medium;">Tim Menzies &lt;<a =
+href=3D"mailto:tim@menzies.us">tim@menzies.us</a>&gt;<br></span></div><div=
+ style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; =
+margin-left: 0px;"><span style=3D"font-family:'Helvetica'; =
+font-size:medium; color:rgba(0, 0, 0, 1.0);"><b>Subject: =
+</b></span><span style=3D"font-family:'Helvetica'; =
+font-size:medium;"><b>Re: GPL/BSD Licencing Question for =
+awk.info</b><br></span></div><div style=3D"margin-top: 0px; =
+margin-right: 0px; margin-bottom: 0px; margin-left: 0px;"><span =
+style=3D"font-family:'Helvetica'; font-size:medium; color:rgba(0, 0, 0, =
+1.0);"><b>Date: </b></span><span style=3D"font-family:'Helvetica'; =
+font-size:medium;">July 13, 2013 4:35:12 PM EDT<br></span></div><div =
+style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; =
+margin-left: 0px;"><span style=3D"font-family:'Helvetica'; =
+font-size:medium; color:rgba(0, 0, 0, 1.0);"><b>To: </b></span><span =
+style=3D"font-family:'Helvetica'; font-size:medium;">Isaac Levy &lt;<a =
+href=3D"mailto:ike@blackskyresearch.net">ike@blackskyresearch.net</a>&gt;<=
+br></span></div><div style=3D"margin-top: 0px; margin-right: 0px; =
+margin-bottom: 0px; margin-left: 0px;"><span =
+style=3D"font-family:'Helvetica'; font-size:medium; color:rgba(0, 0, 0, =
+1.0);"><b>Reply-To: </b></span><span style=3D"font-family:'Helvetica'; =
+font-size:medium;"><a =
+href=3D"mailto:tim@menzies.us">tim@menzies.us</a><br></span></div><br><p =
+dir=3D"ltr">Fyi: no one is enforcing these licenses.&nbsp; Id just =
+contact the original author<br>
+T</p>
+<div class=3D"gmail_quote">On Jul 13, 2013 12:51 PM, "Isaac  Levy" =
+&lt;<a =
+href=3D"mailto:ike@blackskyresearch.net">ike@blackskyresearch.net</a>&gt; =
+wrote:<br type=3D"attribution"><blockquote class=3D"gmail_quote" =
+style=3D"margin: 0px 0px 0px 0.8ex; border-left-width: 1px; =
+border-left-color: rgb(204, 204, 204); border-left-style: solid; =
+padding-left: 1ex; position: static; z-index: auto; ">
+Hi Tim,<br>
+<br>
+I hope this finds you well, I really have recently learned a lot after =
+discovering <a href=3D"http://awk.info/" =
+target=3D"_blank">awk.info</a>!<br>
+<br>
+--<br>
+I'm sorry to bother you with a licensing question, but here goes:<br>
+<br>
+I am blown away by a parser I found on the site,<br>
+<a href=3D"http://awk.info/?doc/tools/xmlparse.html" =
+target=3D"_blank">http://awk.info/?doc/tools/xmlparse.html</a><br>
+<br>
+I'm writing some utilities which collectively fall under a BSD license, =
+and would very much like to use the base of that parser. &nbsp;I see =
+(and respect) that the site/repo content appears to be covered under a =
+GPLv3 license, (totally incompatible with my work, under the BSD =
+license).<br>
+
+<br>
+Is there any way that the xmlparse.awk code be formally released under a =
+BSD, or even LGPL license? &nbsp;Or, that you grant me permission to =
+re-release the code under a BSD license?<br>
+My only alternative would be to re-write similar parser code from =
+scratch, (daunting), and I'd really rather instead give proper =
+attribution to <a href=3D"http://awk.info/" =
+target=3D"_blank">awk.info</a>, and the original author, Steve =
+Coile.<br>
+
+<br>
+I believe in the spirit of the original work of Aho, Weinberger, and =
+Kernighan at AT&amp;T, that this hopefully not taken an unreasonable or =
+insulting request. &nbsp;My intention with the BSD license is to require =
+attribution, and keep the source open and freely available in with no =
+restrictions for use.<br>
+
+<br>
+Thanks for your consideration. &nbsp;And more importantly, thanks for =
+running <a href=3D"http://awk.info/" target=3D"_blank">awk.info</a>, =
+I've learned a lot from it, and I really appreciate your tastes and =
+approaches in shell, POSIX, and UNIX!<br>
+
+<br>
+Rocket-<br>
+.ike<br>
+<br>
+<br>
+</blockquote></div>
+</blockquote></div><br></body></html>=
+
+--Apple-Mail=_25647337-0B5B-478D-8E89-A69667E1FDC5--

@@ -1,0 +1,129 @@
+Received: via dmail-2010.19 for +INBOX; Sun, 14 Jul 2013 01:37:34 -0400 (EDT)
+Received: from rs118.luxsci.com ([172.16.28.164])
+	by rs149.luxsci.com (8.14.4/8.13.8) with ESMTP id r6E5bY2h032532
+	(version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NOT)
+	for <user-74627@rs149.luxsci.com>; Sun, 14 Jul 2013 01:37:34 -0400
+Received: from rs118.luxsci.com (localhost.localdomain [127.0.0.1])
+	by rs118.luxsci.com (8.14.4/8.13.8) with ESMTP id r6E5bYVE025085
+	for <user-74627@rs149.luxsci.com>; Sun, 14 Jul 2013 01:37:34 -0400
+Received: (from mail@localhost)
+	by rs118.luxsci.com (8.14.4/8.13.8/Submit) id r6E5bYET025084
+	for user-74627@rs149.luxsci.com; Sun, 14 Jul 2013 01:37:34 -0400
+X-Spam-Checker-Version: SpamAssassin 3.3.2 (2011-06-06) on rs118.luxsci.com
+X-Spam-Level: 
+X-Spam-Status: No, score=0.5 required=5.0 tests=T_TVD_MIME_NO_HEADERS,
+	UNPARSEABLE_RELAY,URIBL_BLOCKED,URI_NOVOWEL autolearn=unavailable
+	version=3.3.2
+Return-Path: <MAILER-DAEMON>
+Received: from mail2.bemta8.messagelabs.com (mail2.bemta8.messagelabs.com [216.82.243.51])
+	by rs118.luxsci.com (8.14.4/8.13.8) with ESMTP id r6E5bWcJ025059
+	(version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NOT)
+	for <ike@blackskyresearch.net>; Sun, 14 Jul 2013 01:37:33 -0400
+Received: from [216.82.241.211:6001] by server-1.bemta-8.messagelabs.com id 74/F0-06113-C1932E15; Sun, 14 Jul 2013 05:37:32 +0000
+X-Msg-Ref: server-9.tower-85.messagelabs.com!1373780251!38879170!1
+X-Originating-IP: [20.137.2.180]
+X-StarScan-Received:
+X-StarScan-Version: 6.9.9; banners=-,-,-
+X-VirusChecked: Checked
+Received: (qmail 10626 invoked from network); 14 Jul 2013 05:37:32 -0000
+Received: from amer-mta103.csc.com (HELO amer-mta103.csc.com) (20.137.2.180)
+  by server-9.tower-85.messagelabs.com with DHE-RSA-AES256-SHA encrypted SMTP; 14 Jul 2013 05:37:32 -0000
+Received: from localhost (localhost)
+	by amer-mta103.csc.com (8.13.8/8.13.8) id r6E5a3fO004792;
+	Sun, 14 Jul 2013 01:36:03 -0400
+Date: Sun, 14 Jul 2013 01:36:03 -0400
+From: Mail Delivery Subsystem <MAILER-DAEMON@amer-mta103.csc.com>
+Message-Id: <201307140536.r6E5a3fO004792@amer-mta103.csc.com>
+To: <ike@blackskyresearch.net>
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="r6E5a3fO004792.1373780163/amer-mta103.csc.com"
+Subject: Returned mail: see transcript for details
+Auto-Submitted: auto-generated (failure)
+X-Lux-Inbound-TLS: 1
+X-Lux-Processed-For: <ike@blackskyresearch.net>
+X-Lux-Ruleset: #74627 on rs118.luxsci.com
+X-Lux-Envelope-Recipient: <ike@blackskyresearch.net>
+X-Virus-Status: No
+X-Virus-Checker-Version: clamassassin 1.2.4 with clamdscan / ClamAV 0.97.8/17505/Sun Jul 14 04:41:26 2013
+X-Lux-Rule: Deliver
+X-Lux-Delivered-To: "INBOX"
+
+This is a MIME-encapsulated message
+
+--r6E5a3fO004792.1373780163/amer-mta103.csc.com
+
+The original message was received at Sun, 14 Jul 2013 01:36:03 -0400
+from osmtp-mefxp.att-mail.com [12.131.129.86]
+
+   ----- The following addresses had permanent fatal errors -----
+<scoile@csc.com>
+    (reason: 550 scoile@csc.com... No such user)
+
+   ----- Transcript of session follows -----
+... while talking to amer-gw08.amer.csc.com.:
+>>> DATA
+<<< 550 scoile@csc.com... No such user
+550 5.1.1 <scoile@csc.com>... User unknown
+<<< 503 Issue RCPT TO: command before DATA command
+
+--r6E5a3fO004792.1373780163/amer-mta103.csc.com
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; amer-mta103.csc.com
+Received-From-MTA: DNS; osmtp-mefxp.att-mail.com
+Arrival-Date: Sun, 14 Jul 2013 01:36:03 -0400
+
+Final-Recipient: RFC822; scoile@csc.com
+Action: failed
+Status: 5.1.1
+Remote-MTA: DNS; amer-gw08.amer.csc.com
+Diagnostic-Code: SMTP; 550 scoile@csc.com... No such user
+Last-Attempt-Date: Sun, 14 Jul 2013 01:36:03 -0400
+
+--r6E5a3fO004792.1373780163/amer-mta103.csc.com
+Content-Type: text/rfc822-headers
+
+Return-Path: <ike@blackskyresearch.net>
+Received: from fbdbrel05.localdomain (osmtp-mefxp.att-mail.com [12.131.129.86])
+	by amer-mta103.csc.com (8.13.8/8.13.8) with ESMTP id r6E5a2fP004790
+	(version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=OK)
+	for <scoile@csc.com>; Sun, 14 Jul 2013 01:36:03 -0400
+Received: from fbdbscrub10.att-mail.com (unknown [192.168.125.10])
+	by fbdbrel05.localdomain (Postfix) with ESMTP id C2A1D15F8021
+	for <scoile@csc.com>; Sun, 14 Jul 2013 05:37:30 +0000 (GMT)
+Received: from fbdbrel03.localdomain (fbdbrel03.seg.att.com [192.168.10.21]) by fbdbscrub10.att-mail.com with ESMTP id 0tX7j3MNRdOkmMHD for <scoile@csc.com>; Sun, 14 Jul 2013 05:37:30 +0000 (GMT)
+Received: from mail171.messagelabs.com (unknown [216.82.253.243])
+	by fbdbrel03.localdomain (Postfix) with ESMTPS id D42AB128805C
+	for <scoile@csc.com>; Sun, 14 Jul 2013 05:37:29 +0000 (GMT)
+X-Env-Sender: ike@blackskyresearch.net
+X-Msg-Ref: server-8.tower-171.messagelabs.com!1373780247!13080749!1
+X-Originating-IP: [64.49.224.181]
+X-SpamReason: No, hits=0.6 required=7.0 tests=HTML_40_50,HTML_MESSAGE,
+  MIME_HEADER_CTYPE_ONLY,ML_RADAR_SPEW_LINKS_23,spamassassin: 
+X-StarScan-Received: 
+X-StarScan-Version: 6.9.9; banners=-,-,-
+X-VirusChecked: Checked
+Received: (qmail 31786 invoked from network); 14 Jul 2013 05:37:28 -0000
+Received: from rs149.luxsci.com (HELO rs149.luxsci.com) (64.49.224.181)
+  by server-8.tower-171.messagelabs.com with DHE-RSA-AES256-SHA encrypted SMTP; 14 Jul 2013 05:37:28 -0000
+Received: from rs149.luxsci.com (localhost.localdomain [127.0.0.1])
+	by rs149.luxsci.com (8.14.4/8.13.8) with ESMTP id r6E5bRJo032517
+	for <scoile@csc.com>; Sun, 14 Jul 2013 01:37:27 -0400
+Received: (from root@localhost)
+	by rs149.luxsci.com (8.14.4/8.13.8/Submit) id r6E5b2Di032323
+	for scoile@csc.com; Sun, 14 Jul 2013 05:37:02 GMT
+Received: (from sender 74627) (rs149.luxsci.com [127.0.0.1]) by LuxSci SP; Sun, 14 Jul 2013 05:37:02 +0000
+From: "Isaac (.ike) Levy" <ike@blackskyresearch.net>
+Content-Type: multipart/alternative; boundary="Apple-Mail=_25647337-0B5B-478D-8E89-A69667E1FDC5"
+Subject: Fwd: GPL/BSD Licencing Question for xmlparse.awk
+Date: Sun, 14 Jul 2013 01:36:34 -0400
+References: <CAMydrcmLVoWAVV+HwenLjxxKhe7SL+1q6BKnAaM-z_WU1RhrCQ@mail.gmail.com>
+To: Steve Coile <scoile@csc.com>
+X-Lux-Comment: Message r6E5aROL032176 sent by user #74627
+Message-Id: <1373780222-6528778.35319291.fr6E5aROL032176@rs149.luxsci.com>
+X-Comment: LuxSci SP Message ID - 1373780222-6528778.35319291
+X-MEF-SCANNED: CLEAN
+
+--r6E5a3fO004792.1373780163/amer-mta103.csc.com--
+
