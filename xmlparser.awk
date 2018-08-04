@@ -167,8 +167,8 @@ BEGIN {
 
 # Character data ("cdata") sections contain literal character data
 # containing XML meta-characters that should not be processed. 
-Character
-# data sections begin with the sequence, "<![CDATA[" and end with "]]>".
+# Character data sections begin with the sequence,
+# "<![CDATA[" and end with "]]>".
 # This section may span input records.
 
 	if ( $0 ~ /^<!\[[Cc][Dd][Aa][Tt][Aa]\[/ ) {
@@ -310,8 +310,7 @@ Character
 		};
 
 # The attribute name is determined.  Note that the attribute name is
-also
-# saved to "attrib" so that we can reference it should the attribute
+# also saved to "attrib" so that we can reference it should the attribute
 # not include a value.  If the attribute does not include a value,
 # it's name is given as its value.
 
@@ -338,8 +337,7 @@ also
 # Each attribute must have a value.  If one isn't explicit in the input,
 # we assign it one equal to the name of the attribute itself.  Attribute
 # values in the input may be in one of three forms: enclosed in double
-# quotes ("), enclosed in single quotes/apostrophes ('), or a single
-word.
+# quotes ("), enclosed in single quotes/apostrophes ('), or a single word.
 
 		idx += 1;
 		type[idx] = "value";
